@@ -1,0 +1,52 @@
+.text-main {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #163E6C;
+    text-align: center;
+}
+
+.text-desc {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #163E6C;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.span-cl {
+    color: #D20A11;
+}
+
+.icon-text-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img {
+    display: flex;
+    width: 50px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+/* Mobile adapt. */
+@media (max-width: 767px) {
+    .text-main {
+        font-size: 22px;
+    }
+
+    .text-desc {
+        font-size: 16px;
+    }
+
+    .icon-img {
+        width: 40px;
+        height: 30px;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,126 @@
+.header-back {
+    background-color: #EBE6D6;
+}
+
+.header-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 40px 10px 40px;
+}
+
+.header-num,
+.header-silant {
+    font-family: 'Astra-Regular', sans-serif;
+    font-size: 26px;
+    color: #163E6C;
+    cursor: pointer;
+}
+
+.header-logo {
+    display: flex;
+    width: 140px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.header-num {
+    margin-left: 540px;
+}
+
+.header-tg-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 20px 0 0 10px;
+    cursor: pointer;
+}
+
+.header-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #D20A11;
+    box-shadow: 0px 0px 10px 0px rgb(44, 44, 44);
+    color: #163E6C;
+    font-family: 'Astra-Regular', sans-serif;
+    font-size: 17px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    margin: 20px 0 0 500px;
+}
+
+.header-button:hover {
+    background-color: #163E6C;
+    color: #D20A11;
+}
+
+.text-h1 {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #163E6C;
+    margin: 20px 0 50px 160px;
+}
+
+/* Mobile adapt. */
+@media (max-width: 767px) {
+    .header-silant {
+        display: none;
+    }
+
+    .header-logo {
+        width: 60px;
+        height: 35px;
+        margin: 0 0 0 0;
+    }
+
+    .header-num {
+        margin-left: 9px;
+        margin-right: 20px;
+        margin-top: 13px;
+        font-size: 8px;
+    }
+
+    .header-tg-icon {
+        width: 20px;
+        height: 20px;
+        margin: 8px 0 0 0;
+    }
+
+    .header-button {
+        width: 100px;
+        height: 20px;
+        font-size: 11px;
+        margin: 8px 0 0 40px;
+    }
+
+    .text-h1 {
+        font-size: 18px;
+        margin: 30px 0 50px 20px;
+    }
+}
+
+/* Tablet adapt. */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-num,
+    .header-silant {
+        font-size: 24px;
+    }
+
+    .header-num {
+        margin-left: 100px;
+    }
+
+    .header-button {
+        margin: 20px 0 0 100px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .header-num {
+        margin-left: 250px;
+    }
+
+    .header-button {
+        margin: 20px 0 0 200px;
+    }
+}

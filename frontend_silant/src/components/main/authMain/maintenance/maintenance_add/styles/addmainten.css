@@ -1,0 +1,77 @@
+.text-add-h1 {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #163E6C;
+    text-align: center;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-container label {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #163E6C;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.label-container input,
+.label-container select {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #D20A11;
+    font-size: 24px;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    border: 2px solid #163E6C;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button-add-ma {
+    font-family: 'Astra-Regular', sans-serif;
+    color: #D20A11;
+    font-size: 24px;
+    border: 2px solid #D20A11;
+    border-radius: 5px;
+    background-color: #163E6C;
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0 30px 800px;
+    cursor: pointer;
+}
+
+.button-add-ma:hover {
+    color: #163E6C;
+    background-color: #D20A11;
+}
+
+/* Mobile adapt. */
+@media (max-width: 767px) {
+    .text-add-h1 {
+        font-size: 24px;
+    }
+
+    .label-container label {
+        font-size: 24px;
+    }
+
+    .button-add-ma {
+        margin: 10px 0 30px 45px;
+    }
+}
+
+/* Tablet adapt. */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .button-add-ma {
+        margin: 10px 0 400px 360px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .button-add-ma {
+        margin: 10px 0 200px 520px;
+    }
+}

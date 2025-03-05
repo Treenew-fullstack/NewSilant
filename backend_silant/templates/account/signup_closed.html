@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация закрыта</title>
+    <link rel="stylesheet" href="{% static 'css/signup.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h3>СИЛАНТ</h3>
+            <img src="{% static 'logo/logo_red.png' %}" alt="logo" class="header-container-logo">
+            <h4>8 800 700-52-65</h4>
+            <img src="{% static 'icon/tg.png' %}" alt="tg" class="header-container-icon">
+            <button class="header-container-button"><a href="http://localhost:3000/account/login/">Авторизация</a></button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="main-left-container">
+                <img src="{% static 'img/PD.png' %}" alt="PD">
+            </div>
+
+            <div class="main-right-container">
+                <h1>Регистрация запрещена.</h1>
+                <h3>Для регистрации обратитесь к менеджеру сайта!</h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left-container">
+                <h4>8 800 700-52-65</h4>
+                <img src="{% static 'icon/tg.png' %}" alt="tg" class="footer-left-container-icon">
+            </div>
+
+            <div class="footer-right-container">
+                <h4>Силант 2025</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
